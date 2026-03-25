@@ -74,8 +74,7 @@
 
     .slides {
       display: flex;
-      width: 300%;
-      height: 200px;
+      height: auto;
       animation: slide 12s infinite;
     }
 
@@ -86,7 +85,6 @@
 
     .slide img {
       width: 100%;
-      height: auto;
       object-fit: cover;
     }
 
